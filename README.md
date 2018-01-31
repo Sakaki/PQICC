@@ -7,6 +7,8 @@ PQI Air Card向けにcurlをコンパイルします。
 ## 使い方
 
 ```bash
+git clone https://github.com/Sakaki/PQICC.git
+cd PQICC
 docker-compose up
 ```
 
