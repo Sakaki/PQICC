@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  curl:
+    build:
+      context: curl
+    volumes:
+      - ./bin/curl:/env/bin/curl
