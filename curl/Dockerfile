@@ -8,7 +8,7 @@ RUN mkdir /env
 WORKDIR /env
 RUN wget https://sourcery.mentor.com/public/gnu_toolchain/arm-none-linux-gnueabi/arm-2010q1-202-arm-none-linux-gnueabi-i686-pc-linux-gnu.tar.bz2 \
     && tar xf arm-2010q1-202-arm-none-linux-gnueabi-i686-pc-linux-gnu.tar.bz2
-RUN git clone git://github.com/madler/zlib.git
+RUN git clone https://github.com/madler/zlib.git
 RUN wget https://www.openssl.org/source/openssl-1.0.2j.tar.gz \
     && tar xf openssl-1.0.2j.tar.gz
 RUN wget http://curl.haxx.se/download/curl-7.37.1.tar.gz \
